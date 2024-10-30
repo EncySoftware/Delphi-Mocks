@@ -47,3 +47,12 @@ __history/**
 Tests/Delphi.Mocks.Tests.res
 Tests/Delphi.Mocks.Tests.res
 *.rsm
+
+bin
+obj
+
+# Build system
+.stbuild/.nuke/temp
+.stbuild/temp
+.stbuild/hash
+.stbuild/buildspace.local.json
