@@ -29,6 +29,9 @@ package DelphiMocks;
 {$IMPLICITBUILD OFF}
 
 requires
+{$IFNDEF MSWINDOWS}
+  WineRTL,
+{$ENDIF MSWINDOWS}
   rtl;
 
 contains
